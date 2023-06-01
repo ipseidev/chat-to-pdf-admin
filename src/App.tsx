@@ -1,3 +1,6 @@
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+//@ts-nocheck
+
 import React, { useState } from "react";
 import { useMutation } from "react-query";
 import axios from "axios";

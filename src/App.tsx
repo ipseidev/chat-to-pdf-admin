@@ -12,7 +12,7 @@ function App() {
   const [url, setUrl] = useState("");
 
   const mutation = useMutation((formData) =>
-    axios.post("http://82.165.79.190/process", formData, {
+    axios.post("https://thebalderz.com/process", formData, {
       headers: {
         "Content-Type": "multipart/form-data",
       },

@@ -51,7 +51,7 @@ function App() {
             Envoyer
           </button>
           {mutation.isLoading && <div>Chargement...</div>}
-          {mutation.isError && <div>Le pdf ne peut pas être envoyé</div>}
+          {mutation.isError && <div>Le pdf ne peut pas être envoyé, un problème est survenu</div>}
           {mutation.isSuccess && <div>Le pdf à été envoyé</div>}
         </div>
       </form>
